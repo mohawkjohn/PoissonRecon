@@ -26,11 +26,14 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 DAMAGE.
 */
 #include "Geometry.h"
-#include <stdio.h>
-#include <string.h>
+#include <cstdio>
+#include <cstring>
 #ifdef _WIN32
-#include <io.h>
+#include <cstdio>
+#include <cstdlib>
 #endif // _WIN32
+
+using namespace std;
 
 ///////////////////
 // CoredMeshData //

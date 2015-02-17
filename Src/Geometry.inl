@@ -26,10 +26,11 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 DAMAGE.
 */
 
-#include <stdio.h>
+#include <cstdlib> // rand
+#include <cstdio>
 
 template<class Real>
-Real Random(void){return Real(rand())/RAND_MAX;}
+Real Random(void){return Real(std::rand())/RAND_MAX;}
 
 template<class Real>
 Point3D<Real> RandomBallPoint(void){

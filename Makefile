@@ -23,8 +23,8 @@ SRC = Src/
 BIN = Bin/Linux/
 INCLUDE = /usr/include/
 
-CC=gcc
-CXX=g++
+CC=gcc-4.9
+CXX=g++-4.9
 MD=mkdir
 
 PR_OBJECTS=$(addprefix $(BIN), $(addsuffix .o, $(basename $(PR_SOURCE))))

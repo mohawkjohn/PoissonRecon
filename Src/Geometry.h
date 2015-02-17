@@ -29,7 +29,7 @@ DAMAGE.
 #ifndef GEOMETRY_INCLUDED
 #define GEOMETRY_INCLUDED
 
-#include <math.h>
+#include <cmath>
 #include <vector>
 #include "Hash.h"
 
